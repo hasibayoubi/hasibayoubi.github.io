@@ -1,3 +1,14 @@
+section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-in-out;
+}
+
+section.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #desktop-nav, #hamburger-nav {
   position: static;
   top: 0;
